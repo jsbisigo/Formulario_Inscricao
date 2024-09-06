@@ -1,0 +1,250 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #a8b8a0;
+}
+h1{
+    font-size: 20px;
+}
+
+header {
+    background: #c4d2bd;
+    color: #000;
+    padding: 0.1rem;
+    text-align: center;
+}
+header>.Interface_Magica {
+    display:block ;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 20px;
+    font-size: 22px;
+}
+
+header a {
+    color: #2e4d53;
+    font-size: 15px;
+    text-decoration: none;  
+    display: inline-block;
+    transition: .2s;
+}
+
+header nav.menu a:hover {
+    color: #008080;
+    transform: scale(1.05);
+}
+
+header nav ul {
+    list-style: none;
+}
+header nav.menu ul li {
+    display: inline-block;
+    margin: 0 40px;
+}
+main {
+    padding: 1rem;
+}
+.txt-1{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.paragrafo{
+    width: 100%;
+    margin: 0 auto;
+    text-decoration: end;
+}
+figure {
+    margin: 0;
+    padding: 0;
+}
+figure img {
+    max-width: 100%;
+    height: auto;
+}
+
+#galeria img{
+    max-width: 100%; 
+    height: auto;
+}
+.img-pequena{
+    width: 200px;
+    right: auto;
+    align-items:start;
+}
+.img-medium {
+    width: 400px;
+    height: auto;
+}
+.img-large {
+    width: 600px;
+    height: auto;
+}
+.Pag_Magica{
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+/*formulario*/
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    background-color: #242424;
+    border: 0;
+    outline: 0;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 15px;
+}
+
+form textarea {
+    resize: none;
+    max-height: 200px;
+}
+
+form .button {
+    margin-top: 10px;
+    text-align: center;
+}
+
+form .button input {
+    width: 100%;
+    max-width: 200px;
+    background-color: #FFFFF0;
+    color: #000;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    transition: background-color 0.2s, color 0.2s;
+}
+form .button input:hover {
+    background-color: #008080;
+    color: #000;
+}
+
+
+/* Estilização da Tabela */
+table {
+    width: 80%;
+    max-width: 10000px;
+    border-collapse: collapse; 
+    margin: 0 auto;
+}
+
+table, th, td {
+    border: 1px solid #2e4d53; 
+}
+
+th, td {
+    padding: 12px; 
+    text-align: left; 
+}
+
+th {
+    background-color: #D1D5C3; 
+    color: #2e4d53; 
+    font-weight: bold; 
+}
+
+tr {
+    background-color: #2e4d53; 
+}
+
+tr:nth-child(even) {
+    background-color: #000; 
+}
+
+tr:hover {
+    background-color: #000000; 
+}
+
+/*botão*/
+.button1 {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 15px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.button1:hover {
+    font-size: 15px;
+    color: #FFFFFF;
+    background-color: #2e4d53;
+}
+
+/*ROUPAS*/
+.container{
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.produtos {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: calc(33.333% - 20px);
+    margin-bottom: 20px;
+}
+.produtos img {
+    width: 100%;
+    height: auto;
+}
+.produtos-info {
+    padding: 15px;
+}
+.produtos-info h2 {
+    font-size: 18px;
+    margin: 0;
+    color: #333;
+}
+.produtos-info p {
+    margin: 10px 0;
+    color: #666;
+}
+.produtos-info a {
+    display: inline-block;
+    padding: 15px;
+    font-size: 17px;
+    color: white;
+    background-color: #2f3942;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.produtos-info a:hover {
+    background-color: #a1cd98;
+    color: #000;
+}
+.buttonr{
+    color: white;
+    background-color: #2e4d53;
+}
+
+.buttonr a:hover{
+    background-color: #a1cd98;
+    color: #000;
+}
